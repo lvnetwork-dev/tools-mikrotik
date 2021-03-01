@@ -9,3 +9,7 @@ Configurar PPPoE Server com VLANs: </br>
 Configurar VLANs Individuais: </br>
 /tool fetch url="https://raw.githubusercontent.com/lvnetwork-dev/tools-mikrotik/master/vlan.rsc" mode=http </br>
 /import file-name="vlan.rsc" </br>
+
+Configurar Script Failover: </br>
+/tool fetch url="https://raw.githubusercontent.com/lvnetwork-dev/tools-mikrotik/master/failover.rsc" mode=http </br>
+/import file-name="failover.rsc" </br>
