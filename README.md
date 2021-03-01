@@ -1,13 +1,11 @@
 # Tools MikroTik
 
-## Ferramentas para automação de tarefas no MikroTik
+## O Tools MikroTik são um conjunto de ferramentas, criadas para automação algumas tarefas no RouterOS, as ferramentas são executadas diretamente no Terminal, para utiliza-las:
 
-## Para baixar e utilizar as ferramentas, utilize no terminal do MikroTik:
-
-Configurar VLAN: </br>
-/tool fetch url="https://raw.githubusercontent.com/lvnetwork-dev/tools-mikrotik/master/vlan.rsc" mode=http </br>
-/import file-name="vlan.rsc" </hr>
-
-Configurar PPPoE Server: </br>
+Configurar PPPoE Server com VLANs: </br>
 /tool fetch url="https://raw.githubusercontent.com/lvnetwork-dev/tools-mikrotik/master/pppoe.rsc" mode=http </br>
 /import file-name="pppoe.rsc" </br>
+
+Configurar VLANs Individuais: </br>
+/tool fetch url="https://raw.githubusercontent.com/lvnetwork-dev/tools-mikrotik/master/vlan.rsc" mode=http </br>
+/import file-name="vlan.rsc" </br>
