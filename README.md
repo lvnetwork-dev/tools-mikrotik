@@ -1,82 +1,20 @@
-# Tools MikroTik
+![MikroTik](https://i.mt.lv/img/mt/v2/logo.svg)
+ 
+## Tools MikroTik
+ 
+O Tools MikroTik é um conjunto de ferramentas, criadas para automatizar algumas tarefas no RouterOS, as ferramentas são executadas diretamente no Terminal
+ 
+ 
+## Como Utilizar: 
+  
+* PPPoE Server com VLANs:
+>   /tool fetch url="https://raw.githubusercontent.com/lvnetwork-dev/tools-mikrotik/master/pppoe.rsc" mode=http
+> 	/import file-name="pppoe.rsc"
 
-## O Tools MikroTik é um conjunto de ferramentas, criadas para automação algumas tarefas no RouterOS, as ferramentas são executadas diretamente no Terminal, para utiliza-las:
+* VLANs Individuais:
+>   /tool fetch url="https://raw.githubusercontent.com/lvnetwork-dev/tools-mikrotik/master/vlan.rsc" mode=http
+> 	/import file-name="vlan.rsc"
 
-Configurar PPPoE Server com VLANs: </br>
-/tool fetch url="https://raw.githubusercontent.com/lvnetwork-dev/tools-mikrotik/master/pppoe.rsc" mode=http </br>
-/import file-name="pppoe.rsc"</br>
-
-Configurar VLANs Individuais: </br>
-/tool fetch url="https://raw.githubusercontent.com/lvnetwork-dev/tools-mikrotik/master/vlan.rsc" mode=http </br>
-/import file-name="vlan.rsc"</br>
-
-Configurar Script Failover: </br>
-/tool fetch url="https://raw.githubusercontent.com/lvnetwork-dev/tools-mikrotik/master/failover.rsc" mode=http </br>
-/import file-name="failover.rsc" </br>
-
-
-![Logo of the project](http://logo_link)
- 
-## Name_of_the_project
- 
-... Description
- 
- 
-## Technology 
- 
-Here are the technologies used in this project.
- 
-* Ruby version  x.x.x
-* Rails version x.x.x
-* ...
- 
- 
-## Services Used
- 
-* Github
-* ...
- 
- 
-## Ruby Gems
-...
- 
-## Getting started
- 
-* To install gems:
->    $ bundle install
-* To create the bank and do as migrations:
->    $ rake db:create db:migrate db:seed
-* To run the project:
->    $ rails s
- 
-## How to use
- 
-Here will be the images and descriptions. Principal content.
- 
- 
-## Features
- 
-  - Here will be the features.
- 
- 
-## Links
- 
-  - Link of deployed application: (if has been deployed)
-  - Repository: https://link_of_repository
-    - In case of sensitive bugs like security vulnerabilities, please contact
-      YOUR EMAIL directly instead of using issue tracker. We value your effort
-      to improve the security and privacy of this project!
- 
- 
-## Versioning
- 
-1.0.0.0
- 
- 
-## Authors
- 
-* **YOUR NAME**: @YOUR_GITHUB_NICKNAME (https://github.com/YOUR_GITHUB_NICKNAME)
- 
- 
-Please follow github and join us!
-Thanks to visiting me and good coding!
+* Script Failover:
+>   /tool fetch url="https://raw.githubusercontent.com/lvnetwork-dev/tools-mikrotik/master/failover.rsc" mode=http
+> 	/import file-name="failover.rsc"
