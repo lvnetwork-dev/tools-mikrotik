@@ -1,4 +1,4 @@
-![MikroTik](https://i.mt.lv/img/mt/v2/logo.svg)
+![MikroTik](https://i.mt.lv/img/mt/v2/logo_white.png)
  
 ## Tools MikroTik
  
