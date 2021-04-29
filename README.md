@@ -1,14 +1,14 @@
 ![MikroTik](https://i.mt.lv/img/mt/v2/logo_white.png)
 
 ## Tools MikroTik :two_hearts:
-* :star_struck: O Tools MikroTik é um conjunto de ferramentas, criadas para automatizar algumas tarefas no RouterOS, as ferramentas são executadas diretamente no Terminal.
+* :star_struck: Conjunto de ferramentas criadas para ajudar nas tarefas no RouterOS, as ferramentas são executadas diretamente no Terminal do Winbox.
  
 ## Como Utilizar :axe:
-* PPPoE Server com VLANs 
+* Criar PPPoE Server com VLANs 
 >   /tool fetch url="https://raw.githubusercontent.com/lvnetwork-dev/tools-mikrotik/master/pppoe.rsc" mode=http
 > 	/import file-name="pppoe.rsc"
 
-* VLANs Individuais:
+* Criar VLANs Individuais:
 >   /tool fetch url="https://raw.githubusercontent.com/lvnetwork-dev/tools-mikrotik/master/vlan.rsc" mode=http
 > 	/import file-name="vlan.rsc"
 
